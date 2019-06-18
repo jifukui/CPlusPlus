@@ -22,7 +22,7 @@ int main()
 
     for(i=0;i<r1;i++)
     {
-            
+        cout<< matrix[i][0]<<","<<matrix[i][r2]<<","<<target<<endl;
         if(matrix[i][0]<=target&&matrix[i][r2]>=target)
         {
             int mid,height,low;
