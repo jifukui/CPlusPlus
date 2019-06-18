@@ -46,6 +46,7 @@ int main()
                 }           
             }
             cout<<"error1"<<endl;
+            break;
         }
     }
     cout<<"error2"<<endl;
