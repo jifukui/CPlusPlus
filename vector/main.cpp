@@ -45,9 +45,9 @@ int main()
                     return 0;
                 }           
             }
-            cout<<"error"<<endl;
+            cout<<"error1"<<endl;
         }
     }
-    cout<<"error"<<endl;
+    cout<<"error2"<<endl;
     return 0;
 }
