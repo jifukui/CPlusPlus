@@ -8,7 +8,7 @@ int main()
     vector< vector<int> > matrix(2, vector<int>(3)) ;
     int m, n ;
     int r1=matrix.size();
-    int r2=matrix[0].size();
+    int r2=matrix[0].size()-1;
     int i=0;
     cout<<r1<<","<<r2<<endl;
     matrix[0][0]=1;   
@@ -31,6 +31,7 @@ int main()
             while(low<=height)
             {
                 mid=(low+height)/2;
+                cout<< mid<<","<<low<<","<<height<<endl;
                 if(matrix[i][mid]<target)
                 {
                     low=mid+1;
