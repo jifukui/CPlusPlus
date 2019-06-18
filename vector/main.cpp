@@ -41,12 +41,12 @@ int main()
                 }
                 else
                 {
-                    count<<"success"<<endl;
+                    cout<<"success"<<endl;
                 }           
             }
-            count<<"error"<<endl;
+            cout<<"error"<<endl;
         }
     }
-    count<<"error"<<endl;
+    cout<<"error"<<endl;
     return 0;
 }
