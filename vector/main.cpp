@@ -42,6 +42,7 @@ int main()
                 else
                 {
                     cout<<"success"<<endl;
+                    return 0;
                 }           
             }
             cout<<"error"<<endl;
