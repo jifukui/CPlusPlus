@@ -20,7 +20,7 @@ int main()
     int target=4;
 
 
-    for(i;i<r1;i++)
+    for(i=0;i<r1;i++)
     {
             
         if(matrix[i][0]<=target&&matrix[i][r2]>=target)
