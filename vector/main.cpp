@@ -9,6 +9,7 @@ int main()
     int m, n ;
     int r1=matrix.size();
     int r2=matrix[0].size();
+    int i=0;
     cout<<r1<<","<<r2<<endl;
     matrix[0][0]=1;   
     matrix[0][1]=2;
