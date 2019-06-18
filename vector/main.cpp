@@ -17,7 +17,7 @@ int main()
     matrix[1][0]=4;
     matrix[1][1]=5;
     matrix[1][2]=6;    
-
+    int target=4;
 
 
     for(i;i<r1;i++)
